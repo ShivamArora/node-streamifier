@@ -1,18 +1,42 @@
 {
-  "name": "streamifier",
-  "version": "0.1.1",
-  "description": "Converts a Buffer/String into a readable stream",
+  "name": "ts-streamifier",
+  "version": "1.0.0",
+  "description": "A typescript port for streamifier. Converts a Buffer/String into a readable stream",
   "keywords": [
     "string",
     "buffer",
     "readable",
     "stream"
   ],
-  "author": "Gabriel Llamas <gagle@outlook.com>",
-  "repository": "git://github.com/gagle/node-streamifier.git",
+  "author": "Shivam Arora <email.shivamarora@gmail.com> (https://github.com/ShivamArora)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ShivamArora/node-streamifier.git"
+  },
   "engines": {
     "node": ">=0.10"
   },
   "license": "MIT",
-  "main": "lib"
+  "main": "lib",
+  "bugs": {
+    "url": "https://github.com/ShivamArora/node-streamifier/issues"
+  },
+  "homepage": "https://github.com/ShivamArora/node-streamifier#readme",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "tsc:w": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "typescript": "^3.9.7"
+  },
+  "_moduleAliases": {
+    "ts-streamifier": "lib/*"
+  }
 }

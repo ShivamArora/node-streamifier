@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "./",
+        "outDir": "./lib",
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "paths": {
+            "ts-streamifier": [
+                "lib/*"
+            ]
+        }
+    },
+    "include": [
+        "./src/**/*",
+    ],
+}
